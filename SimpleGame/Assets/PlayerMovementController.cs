@@ -6,7 +6,8 @@ public class PlayerMovementController : MonoBehaviour
 {
 
     public float speed;
-    public GameObject cameraMen;
+    public Transform cameraMen;
+    public float jumpHeight;
 
     // Start is called before the first frame update
     void Start()
@@ -34,6 +35,6 @@ public class PlayerMovementController : MonoBehaviour
     private void FixedUpdate()
     {
         transform.Rotate(Vector3.up * Input.GetAxis("Horizontal") * (100f * Time.deltaTime));
-        cameraMen.transform.Rotate(Vector3.up * Input.GetAxis("Horizontal") * (100f * Time.deltaTime));
+        cameraMen.Rotate(Vector3.up * Input.GetAxis("Horizontal") * (100f * Time.deltaTime));
     }
 }
