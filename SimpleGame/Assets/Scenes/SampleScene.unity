@@ -157,8 +157,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+<<<<<<< Updated upstream
   cameraMen: {fileID: 1503957823}
   jumpHeight: 2
+=======
+  cameraMen: {fileID: 1503957822}
+>>>>>>> Stashed changes
 --- !u!54 &361860997
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -618,12 +622,20 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1503957822}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+<<<<<<< Updated upstream
   m_LocalPosition: {x: 598.95465, y: 18.85, z: 281.83}
+=======
+  m_LocalPosition: {x: 598.95465, y: 28.336441, z: 284.897}
+>>>>>>> Stashed changes
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< Updated upstream
   m_RootOrder: 0
+=======
+  m_RootOrder: 4
+>>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!81 &1503957824
 AudioListener:
